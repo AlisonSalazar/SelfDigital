@@ -40,6 +40,9 @@
 .container-home aside{
     width: 40%;
 }
+.container-home img{
+    width: 350px;
+}
 .Centrar{
     margin-left: auto;
     margin-right: auto;
@@ -89,4 +92,11 @@
 .linear{
     display: flex;
     justify-content: space-evenly;
+}
+.linear-vertical{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn{
+    border-radius: 20px;
 }
