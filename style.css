@@ -34,14 +34,12 @@
 .container-home{
     width: 100%;
     height: 80vh;
-    background: rgb(35,36,37);
-    background: linear-gradient(110deg, rgba(35,36,37,1) 0%, rgba(63,84,209,1) 35%, rgba(21,205,203,1) 61%, rgba(79,224,181,1) 100%);
 }
 .container-home aside{
     width: 40%;
 }
 .container-home img{
-    width: 350px;
+    width: 420px;
 }
 .Centrar{
     margin-left: auto;
@@ -64,14 +62,14 @@
     font-size:large;
     font-family: 'Mochiy Pop One', sans-serif;
 }
-.card{
+.card-spa{
     background:none;
     border-radius: 0 0 10px 10px;
     width: 200px;
     height: 260px;
     border: none;
 }
-.card:hover{
+.card-spa:hover{
     transition: 1.5s;
     background-color: var(--bs-aqua);
     -webkit-box-shadow: 0px 34px 89px -23px var(--bs-aqua);
@@ -99,4 +97,42 @@
 }
 .btn{
     border-radius: 20px;
+}
+.card-buy{
+    width: 250px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    -webkit-box-shadow: 0px 0px 62px -22px   var(--bs-ocean);
+    -moz-box-shadow: 0px 0px 62px -22px  var(--bs-ocean);
+    box-shadow: 0px 0px 62px -22px  var(--bs-ocean);
+}
+.card-buy img{
+    width: 200px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+.card-buy .card-body aside{
+    color: #5180e2;
+    display: flex;
+    justify-content:space-between;
+}
+.linear-center{
+    display: flex;
+    justify-content: flex-start;
+}
+.stars span{
+    color: rgb(248, 166, 13);
+}
+.inline{
+    display: inline;
+}
+.block{
+    display: block;
+}
+.button-product{
+    width: 600px;
+}
+h2, .block{
+    text-align: center;
 }
