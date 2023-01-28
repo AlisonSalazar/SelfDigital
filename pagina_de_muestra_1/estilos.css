@@ -1,0 +1,205 @@
+* {
+    box-sizing: border-box;
+    padding: 0px;
+    margin: 0px;
+}
+
+.header {
+    width: 100vw;
+    height: 6vw;
+    border-bottom: 4px solid gray;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav {
+    border-bottom: 3px solid gray;
+}
+
+#navbarNav {
+    justify-content: right;
+}
+
+#navbarNav a:hover {
+    color: red;
+    -webkit-box-shadow: 0px 3px 0px 0px rgba(255, 0, 0, 1);
+    -moz-box-shadow: 0px 3px 0px 0px rgba(255, 0, 0, 1);
+    box-shadow: 0px 3px 0px 0px rgba(255, 0, 0, 1);
+}
+
+#crear {
+    color: white;
+    background-color: orange;
+    border-radius: 15px;
+}
+
+#Principal {
+
+    background-color: rgba(254, 249, 243);
+    width: 100vw;
+    height: 35vw;
+    display: flex;
+    justify-content: space-between;
+}
+
+#art-principal {
+    width: 50vw;
+    display: block;
+    text-align: center;
+    background-color: white;
+}
+
+#Principal img {
+    width: 50vw;
+    background-color: beige;
+    justify-content: space-between;
+}
+
+#Principal button {
+    margin: 45px;
+    color: white;
+    background-color: orange;
+    border: 2px solid orange;
+    border-radius: 20%;
+    font-size: 35px;
+}
+
+#Principal button:hover {
+    background-color: orange;
+    border: 3px solid orange;
+}
+
+#Secundario {
+    width: 100vw;
+    height: 60vw;
+    text-align: center;
+    margin-top: 200px;
+}
+
+
+
+#Secundario img {
+    width: 100vw;
+    height: 50vw;
+}
+
+.info {
+    width: 100vw;
+    height: 50vw;
+    display: flex;
+
+}
+
+article {
+    width: 50vw;
+    display: block;
+    height: 50vw;
+    margin-top: 50px;
+}
+
+section img {
+    width: 50vw;
+    height: 50vw;
+}
+
+.lista {
+    width: 500px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+.icono {
+    padding: 10px;
+    height: 45px;
+    width: 45px;
+    margin-top: auto;
+    margin-bottom: auto;
+    text-align: center;
+    margin-right: 25px;
+    -webkit-box-shadow: 0px 8px 19px -6px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 8px 19px -6px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 8px 19px -6px rgba(0, 0, 0, 0.75);
+    border-radius: 50%;
+}
+
+#info-lista {
+    height: auto;
+}
+
+.ayuda {
+    display: flex;
+}
+
+.lineabaja {
+    color: orange;
+    display: block;
+    font-size: 50px;
+    font-weight: bold;
+    position: relative;
+    top: -50px;
+}
+
+
+#foto {
+    height: 100px;
+    width: 300px;
+}
+
+.pago {
+    width: 100vw;
+    height: 50vw;
+    text-align: center;
+}
+
+.precios {
+    display: flex;
+    justify-content: space-evenly;
+    height: 70vh;
+    width: 90vw;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: beige;
+    padding: 20px 0;
+}
+
+.pagar {
+    color: white;
+    background-color: orange;
+}
+
+.app {
+    background-color: orange;
+    width: 90vw;
+    height: 30vh;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+
+
+.boton-app {
+    width: 500px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.boton-app span{
+    font-size: 40px;
+}
+
+.boton-app a{
+    color: white;
+}
+.boton-app a:hover{
+    color:red;
+}
+
+.centrar {
+    margin-left: auto;
+    margin-right: auto;
+}
