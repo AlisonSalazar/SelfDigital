@@ -2,4 +2,4 @@
 
 # Insertando NavBar
 
-## Insertando colaborador "Juan"
+## Insertando colaborador "Juanch"
